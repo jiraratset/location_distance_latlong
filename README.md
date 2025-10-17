@@ -1,8 +1,10 @@
 ## 🧭 Objective
-This project calculates **driving distances** between locations using **OpenStreetMap road network data** via the `osmnx` and `networkx` libraries.  
+This project calculates **driving distances** between locations using **OpenStreetMap road network data** via the `osmnx` and `networkx` libraries.
 
 The program identifies pairs of nearby locations within a defined radius (default 15 km) and computes the estimated driving distance along actual roads, not just straight-line distance.
 The results are exported as a CSV file showing the distance in kilometers between each pair.
+
+
 ---
 
 ## ⚙️ How It Works
